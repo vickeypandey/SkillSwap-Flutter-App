@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/skill.dart';
 import 'skills_page.dart';
+import 'profile_screen.dart';
 
 
 // HOME SCREEN
@@ -83,17 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 
 
-      Center(
-
-        child: Text(
-
-          "Profile Page",
-
-          style: TextStyle(fontSize:25),
-
-        ),
-
-      ),
+      const ProfileScreen()
 
 
 
